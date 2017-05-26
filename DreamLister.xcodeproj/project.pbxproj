@@ -79,6 +79,7 @@
 				8971AD8E1ED86DC900955DD4 /* View */,
 				8971AD6C1ED7660900955DD4 /* Model */,
 				8971AD471ED7608000955DD4 /* AppDelegate.swift */,
+				8971AD491ED7608000955DD4 /* MainVC.swift */,
 				8971AD4B1ED7608000955DD4 /* Main.storyboard */,
 				8971AD511ED7608000955DD4 /* Assets.xcassets */,
 				8971AD531ED7608000955DD4 /* LaunchScreen.storyboard */,
@@ -116,7 +117,6 @@
 			children = (
 				8971AD8F1ED86DE900955DD4 /* MaterialView.swift */,
 				8971AD911ED8729700955DD4 /* ItemCell.swift */,
-				8971AD491ED7608000955DD4 /* MainVC.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
