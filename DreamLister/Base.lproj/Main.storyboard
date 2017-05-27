@@ -39,7 +39,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="UwR-3E-ZVb" customClass="ItemCell" customModule="DreamLister" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="150" id="UwR-3E-ZVb" customClass="ItemCell" customModule="DreamLister" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="150"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UwR-3E-ZVb" id="fSA-Yp-lTB">
@@ -141,7 +141,7 @@
                     <connections>
                         <outlet property="segment" destination="nMv-8L-0Vz" id="rST-l2-wTo"/>
                         <outlet property="tableView" destination="RLA-hZ-s6e" id="7VH-cm-cdI"/>
-                        <segue destination="Lny-Np-I9g" kind="show" identifier="ItemDeatailsVC" id="4Tf-u6-FiX"/>
+                        <segue destination="Lny-Np-I9g" kind="show" identifier="ItemDetailsVC" id="4Tf-u6-FiX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
